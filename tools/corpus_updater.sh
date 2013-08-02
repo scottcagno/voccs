@@ -22,7 +22,7 @@ RES=`curl -sL -H "Content-Type: multipart/form-data" -F "corpus=@vocab.corpus" -
 
 # CLEAN UP CORPUS FILE, WE NO LONGER NEED IT.
 echo ">> Cleaning up corpus file, we no longer need it..."
-rm vocab.corpus
+rm ../vocab.corpus
 
 # ECHO THE CONTENTS OF THE SAVED HTTP RESPONSE, PARSE OUT THE UNIQUE REFERENCES URL. (SAVE IN $REF)
 REF=`echo $RES | grep -oE 'title[^<>]*>[^<>]+' | cut -d'>' -f2 | sed -e "s/Index of//g" | tr -d ' '`

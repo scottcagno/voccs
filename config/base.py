@@ -23,7 +23,7 @@ scope = {
 		"CHARLIE" 			:	[ ('type', "c") ],
 		"DELTA" 			:	[ ('type', "d") ],
 		"ECHO" 				:	[ ('type', "e") ],
-		"FUDGE" 			:	[ ('type', "f") ],
+		"FOXTROT" 			:	[ ('type', "f") ],
 		"GOLF" 				:	[ ('type', "g") ],
 		"HOTEL" 			:	[ ('type', "h") ],
 		"INDIA" 			:	[ ('type', "i") ],
@@ -31,7 +31,7 @@ scope = {
 		"KILO" 				:	[ ('type', "k") ],
 		"LIMA" 				:	[ ('type', "l") ],
 		"MIKE" 				:	[ ('type', "m") ],
-		"NOVEM" 			:	[ ('type', "n") ],
+		"NOVEMBER" 			:	[ ('type', "n") ],
 		"OSCAR" 			:	[ ('type', "o") ],
 		"PAPA" 				:	[ ('type', "p") ],
 		"QUEBEC" 			:	[ ('type', "q") ],
@@ -42,7 +42,7 @@ scope = {
 		"VICTOR" 			:	[ ('type', "v") ],
 		"WHISKEY" 			:	[ ('type', "w") ],
 		"X-ER" 				:	[ ('type', "x") ],
-		"YANKS" 			:	[ ('type', "y") ],
+		"YANKEE" 			:	[ ('type', "y") ],
 		"ZEN" 				:	[ ('type', "z") ],
 		
 		# DIGIT
@@ -123,7 +123,7 @@ scope = {
 		"YEAR" 				: 	[ ('type', str(datetime.datetime.now().year)) ],
 		
 		# PK's and ID's
-		"U-U-I-D"			:	[ ('type', str(uuid.uuid1())) ],
+		"UNIQUE-ID"			:	[ ('type', str(uuid.uuid1())) ],
 
 		# WEB
 		"COM"				:	[ ('type', "com") 	],
@@ -131,7 +131,9 @@ scope = {
 		"NET"				:	[ ('type', "net") 	],
 		"W-W-W"				:	[ ('type', "www") 	],
 		"H-T-T-P"			:	[ ('type', "http") 	],
-		"H-T-T-P-S"			:	[ ('type', "https") ]		
+		"H-T-T-P-S"			:	[ ('type', "https") ],
+		"GOOGLE"			:	[ ('type', "google") ],
+		"G-MAIL"			:	[ ('type', "gmail") ],
 
 		}
 }

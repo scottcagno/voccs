@@ -12,12 +12,14 @@ scope = {
 	'actions'			:	{
 
 		# UNIQUE
+		"SCOTT-CAG-NO"		:	[ ('type'), "scottcagno" ],
+		"USER"				:	[ ('type'), "dono" ],
 		"PASSWORD"			:	[ ('type', "envnei9049") ],
 		"ROOT-PASSWORD"		:	[ ('type', "d10No335") ],
 
 		# COMMON COMMANDS
 		"L-S"				:	[ ('type', "ls ") ],
-		"CLEAR"				:	[ ('type', "clear"), ('key', "Return") ],
+		"CLEAR"				:	[ ('key', "ctrl+l") ],
 		"UNDO"				:	[ ('key', "shift+alt+b"), ('key', "ctrl+k") ],
 		"DELETE"			:	[ ('key', "Delete") ],
 		"C-D"				:	[ ('type', "cd ") ],

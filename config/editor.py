@@ -47,9 +47,10 @@ scope = {
 		"FIND"				:	[ ('type', "?") ],
 		"NEXT"				:	[ ('type', "n") ],
 		"PREVIOUS"			:	[ ('key', "shift+n") ],
-		"REPLACE"			:	[ ('type', ":s//"), ('key', "Left") ],
-		"REPLACE-ALL"		:	[ ('type', ":%s//"), ('key', "Left") ],
+		"REPLACE"			:	[ ('type', ":s//g"), ('key', "Left") ],
 		"BACKSPACE"			:	[ ('key', 'Delete') ],
+		"RIGHT-ARROWKEY"	:	[ ('key', 'Right') ],
+		"LEFT-ARROWKEY"		:	[ ('key', 'Left') ],
 
 		# COMMAND MODE -- MACROS
 		"START-MACRO"		:	[ ('type', "qq") ],

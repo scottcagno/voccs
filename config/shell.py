@@ -13,7 +13,6 @@ scope = {
 
 		# UNIQUE
 		"SCOTT-CAG-NO"		:	[ ('type', "scottcagno") ],
-		"USER"				:	[ ('type', "dono") ],
 		"PASSWORD"			:	[ ('type', "envnei9049") ],
 		"ROOT-PASSWORD"		:	[ ('type', "d10No335") ],
 

@@ -7,7 +7,7 @@
 
 * run `sudo bash /tools/get_dependencies.sh` 
 
-* then run `ln -s /usr/local/bin/voccs voccs.py`
+* then run `sudo ln -s $PWD/run_voccs.sh /usr/bin/voccs`
 
 > Basic Usage
 
